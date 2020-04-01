@@ -11,12 +11,15 @@ const Panel = props => {
             <Router>
                 <Navbar {...props} />
                 <Asidebar />
-                <div class="content-wrapper">
-                    <Route path='/panel' exact component={Dashboard}></Route>
+                <div className="content-wrapper">
+                    <Switch>
+                        <Route path='/panel' exact component={Dashboard}></Route>
+                    </Switch>
                 </div>
-                <Footer />
             </Router>
-        </div >
+
+            <Footer />
+        </div>
     );
 }
 

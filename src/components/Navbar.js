@@ -120,8 +120,8 @@ class Navbar extends React.Component {
                         </div>
                     </li>
                     <li className="nav-item">
-                        <div class="nav-link">
-                            <button class="btn btn-sm btn-outline-danger" onClick={() => {
+                        <div className="nav-link">
+                            <button className="btn btn-sm btn-outline-danger" onClick={() => {
                                 Auth.logout(() => {
                                     this.props.history.push("/login");
                                 });

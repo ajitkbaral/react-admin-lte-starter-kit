@@ -35,7 +35,7 @@ class Login extends React.Component {
                                 <div className="col-8">
                                     <div className="icheck-primary">
                                         <input type="checkbox" id="remember" />
-                                        <label for="remember">
+                                        <label htmlFor="remember">
                                             Remember Me
                                             </label>
                                     </div>
